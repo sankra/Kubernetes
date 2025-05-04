@@ -1,3 +1,5 @@
+# This file is used to create a new deployment in Kubernetes.
+# It defines a deployment for an Alpine HTTP server with 3 replicas.
 apiVersion: apps/v1
 kind: Deployment
 metadata:

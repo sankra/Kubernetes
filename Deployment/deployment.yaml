@@ -1,3 +1,6 @@
+# This is a sample deployment file for a Kubernetes application.
+# It defines a deployment for an Nginx server with 4 replicas.
+# The deployment is labeled with "tier: frontend" and "app: nginx".
 apiVersion: apps/v1
 kind: Deployment
 metadata:
