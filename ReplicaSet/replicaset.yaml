@@ -1,3 +1,5 @@
+# This file is used to create a ReplicaSet in Kubernetes.
+# It ensures that a specified number of replicas of a Pod are running at all times.
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
