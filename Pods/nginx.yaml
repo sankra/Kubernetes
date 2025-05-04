@@ -1,7 +1,9 @@
+# This is a simple Pod definition for an Nginx server
+# This file defines a Kubernetes Pod for the application.
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-2
+  name: nginx-pod
   labels:
     env: myapp
 spec:
